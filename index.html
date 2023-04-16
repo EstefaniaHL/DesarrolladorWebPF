@@ -5,43 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <header> 
-        <nav>
-            <h1>"nuevo estilo"</h1>
-              <ul> 
-                <li> <a href="">Contacto</a> </li>
-                <li> <a href="">Sucursales</a> </li>
-                <li> <a href="">Trabaja con nosotras</a> </li>
-                <li> <a href="">Personal</a> </li>
-                <li> <a href="">Reclamo</a> </li>
-          
-              </ul>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-gradient">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <h5 class="text-light">Nuevo Estilo</h5>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link text-light" href="sucursales.html">Sucursales</a>
+                <a class="nav-link text-light" href="">Personal</a>
+                <a class="nav-link text-light" href="">Turnos</a>
+                <a class="nav-link text-light" href="">Contacto</a>
+              </div>
+            </div>
+          </div>
         </nav>
-    </header>
-    <div>
-        <img width="150px"src="portada2.jpg" alt="" srcset="">
+      </header>
+    
+    
+    
+    <div id="portada">
+      <img src="./portada2.jpg" alt="">
+       
     </div>
-    <section>
-        <div>
-            <a href="">
-                <ul>
-                    <li>
-                      <a href="barberia.html"> Barbería</a> 
-                      <img width="150px"src="cortehombre.jpeg" alt="" srcset="">
-                    </li>   
-                    <li>
-                        <a href="peinados.html"> Peinados</a> 
-                        <img width="150px"src="peinado.jpeg" alt="" srcset="">
-                      </li> 
-                      <li>
-                        <a href="corte.html"> Corte</a> 
-                        <img width="150px"src="cortemujer.jpeg" alt="" srcset="">
-                      </li> 
-                </ul>
-            </a>
-        </div>
-    </section>       
+   
+    
+    <div id="cards">
+    <div class="card bg-dark">
+      <img src="barberia1.jpg" class="card-img-top" alt="card-img-top">
+      <div class="card-body">
+       <a href="" class="card-title text-light d-flex justify-content-center"><h4>Barberia</h4></a>
+        <p class="card-text text-light d-flex justify-content-center">Realizamos cualquier estilo de corte para hombre, tanto de cabello como de barberia.</p>
+
+      </div>
+    </div>
+    <div class="card bg-dark">
+      <img src="peinados1.jpg" class="card-img-top" alt="card-img-top">
+      <div class="card-body">
+        <a href="" class="card-title text-light d-flex justify-content-center"> <h4>Peinados</h4></a>
+        <p class="card-text text-light d-flex justify-content-center">Vea aqui los distintos tipos de peinados que tenemos para ofrecer para fiestas, casamientos, etc.</p>
+        
+      </div>
+    </div>
+    <div class="card bg-dark">
+      <img src="cortes1.jpg" class="card-img-top" alt="card-img-top">
+      <div class="card-body">
+        <a href="" class="card-title text-light d-flex justify-content-center"> <h4>Cortes</h4></a>
+        <p class="card-text text-light d-flex justify-content-center">Nuestra especialidad son los cortes de mujer, vea aqui los distintos cortes y elija el que mas le guste</p>
+      </div>
+    </div>
+  </div>
+    
+  
+
+  <footer class="bg-dark bg-gradient">
+    <ul>
+    <a class="nav-link text-light" href="sucursales.html"><li></li>Sucursales</a> 
+    <a class="nav-link text-light" href="">  <li></li>Personal</a>
+    <a class="nav-link text-light" href=""> <li></li>Turnos</a>
+    <a class="nav-link text-light" href=""> <li></li>Contacto</a>
+    </ul>
+  </footer>
 </body>
 </html>
