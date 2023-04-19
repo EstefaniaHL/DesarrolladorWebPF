@@ -1,0 +1,44 @@
+body {
+    background-color: darkgray;
+}
+#nav {
+    display: flex;
+}
+#nav ul li{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    list-style: none;
+    margin: 15px;
+    padding: 10px;
+}
+#items {
+    display: flex;
+    justify-content: end;
+}
+
+#portada {
+    display: grid;
+}
+#portada img {
+    height: 40rem;
+    width: 100%;
+}
+
+#cards {
+    display: flex;
+    padding: 20px;
+}
+#cards div {
+    margin: 10px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li{
+    display: flex;
+    text-decoration: none;
+}
