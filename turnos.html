@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+
+<body style="background-color: gray;">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-gradient">
+          <div class="container-fluid">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <h5 class="text-light">Nuevo Estilo</h5>
+            <div class="navbar-collapse justify-content-end collapse" id="navbarNavAltMarkup">
+              <div id="navegacion" class="navbar-nav">
+                <a class="nav-link text-light" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link text-light" href="">Sucursales</a>
+                <a class="nav-link text-light" href="">Personal</a>
+                <a class="nav-link active text-light" href="">Turnos</a>
+                <a class="nav-link text-light" href="">Contacto</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <h1 class="d-flex justify-content-center m-3">Turnos</h1>
+
+    <section class="signup-step-container">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8">
+                    <div class="wizard">
+                        <div class="wizard-inner">
+                            <div class="connecting-line"></div>
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" aria-expanded="true"><span class="round-tab">1 </span> <i>Datos personales</i></a>
+                                </li>
+                                <li role="presentation" class="disabled">
+                                    <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" aria-expanded="false"><span class="round-tab">2</span> <i>Eleccion de turno</i></a>
+                                </li>
+                            </ul>
+                        </div>
+        
+                        <form role="form" action="index.html" class="login-box">
+                            <div class="tab-content" id="main_form">
+                                <div class="tab-pane active" role="tabpanel" id="step1">
+                                    <h4 class="text-center">Datos personales</h4>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>Nombre y apellido *</label> 
+                                                <input class="form-control" type="text" name="name" placeholder=""> 
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>Numero de telefono  *</label> 
+                                                <input class="form-control" type="text" name="name" placeholder=""> 
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>Email *</label> 
+                                                <input class="form-control" type="email" name="name" placeholder=""> 
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        
+                                    </div>
+                                    <ul class="list-inline pull-right">
+                                        <li><button type="button" class="btn btn-dark next-step" id="next-step">Continuar a elegir turno</button></li>
+                                    </ul>
+                                </div>
+                              
+                                <div class="tab-pane" role="tabpanel" id="step2">
+                                    <h4 class="text-center">Horarios y dias disponibles</h4>
+                                    <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Horario *</label> 
+                                            <select name="country" class="form-control" id="country">
+                                                <option value="NG" selected="selected">Mañana (10 a 12)</option>
+                                                <option value="NU">Mediodia (13 a 15)</option>
+                                                <option value="NF">Tarde (16 a 18)</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Dia *</label> 
+                                            <select name="country" class="form-control" id="country">
+                                                <option value="NG" selected="selected">Lunes</option>
+                                                <option value="NU">Martes</option>
+                                                <option value="NF">Jueves</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                   
+                                    
+                                    <ul class="list-inline pull-right">
+                                        <li><button type="button" class="btn btn-dark prev-step" id="prev-step">Atras</button></li>
+                                        
+                                        <li><button type="button" class="btn btn-dark next-step" id="next-step">Confirmar turno</button></li>
+                                    </ul>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="d-flex mt-5">
+        <div class="container-fluid py-3 text-light shadow bg-dark bg-gradient">
+          <nav class="d-flex flex-column flex-md-row fw-bold text-center justify-content-around shadow-image">
+            <a class="text-light" href="#">Inicio</a>
+            <a class="text-light" href="#">Sucursales</a>
+            <a class="text-light" href="#">Personal</a>
+            <a class="text-light" href="#">Turnos</a>
+            <a class="text-light" href="#">Contacto</a>
+          </nav>
+        </div>
+      </footer>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
