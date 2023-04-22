@@ -13,7 +13,7 @@ La información presente tanto en el header como en el footer son: página de su
 
 ## Equipo de Desarrollo
 
-- Fernández Milagros: [GitHub](https://github.com/milufernandez)
+- Fernández Ayala Milagros Tamara: [GitHub](https://github.com/milufernandez)
 - Hernández Lavallén María Estefanía: [GitHub](https://github.com/EstefaniaHL)
-- Marcial Nadia: [GitHub](https://github.com/Nadia-marcial)
-- Mauas Noemí: [GitHub](https://github.com/noemimauas)
+- Marcial Nadia Agustina: [GitHub](https://github.com/Nadia-marcial)
+- Mauas Jaia Noemí: [GitHub](https://github.com/noemimauas)
